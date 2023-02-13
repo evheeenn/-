@@ -120,6 +120,12 @@ body {
 	opacity: 1;
 	transform: translateX(-40%), translateY(0px);
 }
+.li:hover .default-btn {
+	transform: translate(0%,-100%);
+}
+.li:hover .hover-btn {
+    transform: translate(0%,0%);
+}
 
 .li .content2 {
 	transform: translateX(20%), translateY(-70px);
@@ -227,5 +233,12 @@ button:hover .hover-btn {
 		z-index: 2;
 		margin-bottom: 35px;
 	}
+	button:hover .default-btn {
+    transform: translate(0%,-100%);
+    }
+
+    button:hover .hover-btn {
+    transform: translate(0%,0%);
+    }
 	
 }
