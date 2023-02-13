@@ -178,14 +178,6 @@ button {
     color: hsl(50deg 100% 50%);
 }
 
-button:hover .default-btn {
-    transform: translate(0%,-100%);
-}
-
-button:hover .hover-btn {
-    transform: translate(0%,0%);
-}
-
 @media (max-width: 710px) {
 	body {
 		align-items: unset;
